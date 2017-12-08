@@ -1125,7 +1125,9 @@ class CReserve():
 
 
 	def enleverCarte (self) :
-		return self.reserve[0]
+		carte = self.reserve[0]
+		del self.reserve[0]
+		return carte
 
 	def nbCarte (self) :
 		return len (self.reserve)
@@ -1371,19 +1373,5 @@ class CGarde():
 			return self.defDef - self.ptsPerdu
 		else :
 			return self.defAtt - self.ptsPerd
-
-"""
-jt1 = creerJoueur(1)
-jt2 = creerJoueur(2)
-
-mettreCarteMain(getMainJoueur(jt1), creerSoldat())
-mettreCarteMain(getMainJoueur(jt1), creerGarde())
-mettreCarteMain(getMainJoueur(jt1), creerArcher())
-
-mettreCarteMain(getMainJoueur(jt2), creerSoldat())
-mettreCarteMain(getMainJoueur(jt2), creerGarde())
-mettreCarteMain(getMainJoueur(jt2), creerArcher())
-
-
-placerCarteCDB (getChampDeBatailleJoueur(jt1), creerArcher(), "A2")"""
+			
 programmePrincipal()
