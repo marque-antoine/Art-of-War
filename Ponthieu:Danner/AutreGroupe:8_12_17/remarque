@@ -1,0 +1,44 @@
+General
+
+
+
+SpeCarte
+# Les points de vie sont pas precisés dans la spé de creer carte
+# Comment identifier la carte sans identifiant dans la fonction capturer
+# La carte n'a pas de position
+
+SpeReserve
+Rien n'est precisé pour ce qu'on doit mettre dans reserve
+
+
+SpePioche
+Dans creer pioche y a pas le joueur 
+
+SpeJoueur
+Y a pas de nom dans joueur 
+On peut pas changer le nom si on recupere le nom via une fonction, faut pouvoir le changer direct avec le joueur 
+Comment on doit creer le roi
+
+SpeMain 
+Aucune info sur la creation de la main
+Donne en parametre la carte de la main que je dois rendre ?? (si tu la passes en parametre pourquoi me la demander
+Sous quel forme sont données les coordonnéés pour placer une carte  ?
+Pas de fonciton pour mettre une carte dans la reserve dans le type reserve 
+
+SpeReserve
+Pour recupere la reserve d'un joueur il faut pas le mettre dans reserve mais dans joueur
+C'est pas à nous de mettre une carte de la reserve dans le champ de bataille. ( faire une fonciton getCarte dans resevre et poser carte dans champ de bataille et faire la focntion dans ton main)
+
+SpeRoyaume
+Comment on doit creer le royaume ?
+On doit pas recuperer le royaume du joueur dans royaume, mais dans joueur
+Pourquoi demander une carte que l'on donne en parametre ??
+pas a nous de passe la carte du royaume vers le champ de bataille, les fonctions existe pour le faire dans le main
+
+SpePartie
+Rien surle bool pour la fin de la partie n'est spécifié
+
+SpePioche
+Rien est dit sur la pioche 
+PiocheCarte, faut faire quoi ??
+Pourquoi melanger pioche, je sais meme pas ce que je dois mettre dedans 
